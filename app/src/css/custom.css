@@ -302,3 +302,14 @@ input:focus {
   margin-top: 1px;
   vertical-align: middle;
 }
+
+.navbar__toggle {
+  display: none;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 996px) {
+  .navbar__toggle {
+    display: inherit;
+  }
+}
